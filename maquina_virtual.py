@@ -102,7 +102,7 @@ def swap_nat(sigla):
 
 
 df['nat']= df['nat'].apply(swap_nat)
- df.head()
+df.head()
 
 # Se toma de referencia país(ESPAÑA) y hacer cuadro de localización nat
 
